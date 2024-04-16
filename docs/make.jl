@@ -8,7 +8,7 @@ makedocs(;
     authors="XinyuanWang283 <xinyuan.wang1999@outlook.com> and contributors",
     sitename="Tango.jl",
     format=Documenter.HTML(;
-        canonical="https://xinyuan.github.io/Tango.jl",
+        canonical="https://XinyuanWang283.github.io/Tango.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/xinyuan/Tango.jl",
+    repo="github.com/XinyuanWang283/Tango.jl",
     devbranch="main",
 )

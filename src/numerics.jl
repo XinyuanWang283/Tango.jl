@@ -1,4 +1,5 @@
 export numderiv
+export tangent
 
 
 
@@ -10,4 +11,8 @@ function numderiv(f, x₀, ϵ=1e-7)
 
 end
 
-
+function tangent(f, x₀, ϵ=1e-7)
+    slope = numderiv(f, x₀, ϵ)
+    r(x) = slope*(x - x₀) + f(x₀)
+    return r
+end
